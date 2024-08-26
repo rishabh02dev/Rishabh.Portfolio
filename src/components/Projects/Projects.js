@@ -42,15 +42,14 @@ function Projects() {
               demoLink="https://karaindiabyrishabh.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={emotion}
               isBlog={false}
-              title="Airbnb FrontEnd"
-              description="A fully responsive clonoe for the famous Airbnb platform. The project is built using HTML, CSS, and JavaScript, with a focus on a clean and modern UI design."
-              ghLink="https://github.com/rishabh02dev/Airbnb-Frontend"
-              demoLink="https://rishabh02dev.github.io/Airbnb-Frontend/"
+              title="GPT3 Clone"
+              description="Build a ChatGPT3 frotend clone with React.js, Javascript, CSS showcasing cleaner UI with proper functionalities."
+              ghLink="https://github.com/rishabh02dev/GPT3_Rishabh02dev"
+              demoLink="https://gpt-3-rishabh02dev.vercel.app/"
             />
           </Col>
 
@@ -75,15 +74,14 @@ function Projects() {
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={editor}
               isBlog={false}
-              title="Sarthak Dance Academy using Pug and Vanilla JS"
-              description="This is a dance web application generated with the help of node.js , pug as a template engine and css for styling along with Mongodb for managing the database."
-              ghLink="https://github.com/rishabh02dev/SarthakDanceAcademy.org.in"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+              title="Airbnb FrontEnd"
+              description="A fully responsive clonoe for the famous Airbnb platform. The project is built using HTML, CSS, and JavaScript, with a focus on a clean and modern UI design."
+              ghLink="https://github.com/rishabh02dev/Airbnb-Frontend"
+              demoLink="https://rishabh02dev.github.io/Airbnb-Frontend/"
             />
           </Col>
         </Row>
