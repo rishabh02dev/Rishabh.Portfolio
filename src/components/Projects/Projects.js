@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import game from "../../Assets/Projects/game.png";
 
 function Projects() {
   return (
@@ -80,6 +81,16 @@ function Projects() {
               isBlog={false}
               title="Airbnb FrontEnd"
               description="A fully responsive clonoe for the famous Airbnb platform. The project is built using HTML, CSS, and JavaScript, with a focus on a clean and modern UI design."
+              ghLink="https://github.com/rishabh02dev/Airbnb-Frontend"
+              demoLink="https://rishabh02dev.github.io/Airbnb-Frontend/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={game}
+              isBlog={false}
+              title="Tic-Toc-Toe"
+              description="A project which I used to play tic-tac-toc and it contains react.js and uses hooks like use-state to get the functioning done. A beautiful UI with dark theme."
               ghLink="https://github.com/rishabh02dev/Airbnb-Frontend"
               demoLink="https://rishabh02dev.github.io/Airbnb-Frontend/"
             />
