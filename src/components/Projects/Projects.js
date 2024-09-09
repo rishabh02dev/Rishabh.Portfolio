@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import game from "../../Assets/Projects/game.png";
+import meals from "../../Assets/Projects/meals.png";
 
 function Projects() {
   return (
@@ -51,6 +52,17 @@ function Projects() {
               description="Build a ChatGPT3 frotend clone with React.js, Javascript, CSS showcasing cleaner UI with proper functionalities."
               ghLink="https://github.com/rishabh02dev/GPT3_Rishabh02dev"
               demoLink="https://gpt-3-rishabh02dev.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={meals}
+              isBlog={false}
+              title="Meals Finder"
+              description="It is a react project using Meals Db api working using react hooks - UseEffect, UseState and map. Use this app to find the meals from different countries across the globe. Happy Cooking!!"
+              ghLink="https://github.com/rishabh02dev/Meals0x"
+              demoLink="https://meals0x.vercel.app/"
             />
           </Col>
 
